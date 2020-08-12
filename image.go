@@ -76,7 +76,7 @@ func (m *Image) getRandomPalette() color.Palette {
 		0xFF,
 	}
     // Transparent color.
-	p[0] = color.RGBA{0xFF - prim.R, 0xFF - prim.G, 0xFF - prim.B, 0x20}
+	p[0] = color.RGBA{0xFF - prim.R, 0xFF - prim.G, 0xFF - prim.B, 0x40}
 	p[1] = prim
 	// Circle colors.
 	for i := 2; i <= circleCount; i++ {
